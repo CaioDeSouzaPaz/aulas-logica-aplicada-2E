@@ -3,7 +3,11 @@ public class Animal {
     String especie;
     String nome;
     String raca;
-    String peso;
+    double peso;
     String corPele;
     String corOlhoDireito;
+    // Metodo
+    public void comer(){
+        System.out.println("comeu como animal");
+    }
 }
