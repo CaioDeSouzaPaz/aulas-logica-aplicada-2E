@@ -1,6 +1,5 @@
 public class Pessoa extends Animal{
     //atributos da pessoa
-    public String nome;
     public String sobrenome;
     //Método da pessoa
     public void falar (){
