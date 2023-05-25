@@ -1,4 +1,4 @@
-public class Pessoa {
+public class Pessoa extends Animal{
     //atributos da pessoa
     public String nome;
     public String sobrenome;
