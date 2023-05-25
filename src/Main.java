@@ -10,6 +10,17 @@ public class Main {
         qualquer.nome = "rita";
         qualquer.sobrenome = "lee";
         qualquer.falar();
+        // Criar novos objetos
+        //Declarar objeto
+        Pessoa rainha;
+        // instanciar objetos
+        rainha = new Pessoa();
+        //definir forma do objeto
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        // definir comportamento do objeto
+        rainha.falar();
+        System.out.println(rainha.falar(" alto"));
 
     }
 }
