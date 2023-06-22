@@ -22,9 +22,16 @@ public class Main {
         rainha.falar();
         System.out.println(rainha.falar(" alto"));
         rainha.comer();
-        public void comer(){
-            System.out.println("comer como pessoa");
+        rainha.comer();
+
+            Produto p1 = new Produto(5.00);
+            Produto p2 = new Produto();
+            Produto p3;
+            p3 = new Produto("bala", 2.00);
+            p3 = new Produto("chiclete", 4.00);
+            p1.preco = 10.00;
+            //p1.nome = "chocolate";
+        p1.setNome("chocolate");
         }
 
     }
-}
